@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521F72112CB0E27C009E9E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F72102CB0E27C009E9E0B /* AppDelegate.swift */; };
+		521F72132CB0E27C009E9E0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F72122CB0E27C009E9E0B /* SceneDelegate.swift */; };
+		521F72152CB0E27C009E9E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F72142CB0E27C009E9E0B /* ViewController.swift */; };
+		521F721A2CB0E27F009E9E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521F72192CB0E27F009E9E0B /* Assets.xcassets */; };
+		521F721D2CB0E27F009E9E0B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 521F721C2CB0E27F009E9E0B /* Base */; };
+		521F72282CB0E280009E9E0B /* ForeverYongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F72272CB0E280009E9E0B /* ForeverYongTests.swift */; };
+		521F72322CB0E280009E9E0B /* ForeverYongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F72312CB0E280009E9E0B /* ForeverYongUITests.swift */; };
+		521F72342CB0E280009E9E0B /* ForeverYongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521F72332CB0E280009E9E0B /* ForeverYongUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521F72242CB0E280009E9E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521F72052CB0E27C009E9E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521F720C2CB0E27C009E9E0B;
+			remoteInfo = ForeverYong;
+		};
+		521F722E2CB0E280009E9E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521F72052CB0E27C009E9E0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521F720C2CB0E27C009E9E0B;
+			remoteInfo = ForeverYong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		521F720D2CB0E27C009E9E0B /* ForeverYong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForeverYong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521F72102CB0E27C009E9E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		521F72122CB0E27C009E9E0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		521F72142CB0E27C009E9E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		521F72192CB0E27F009E9E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521F721C2CB0E27F009E9E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		521F721E2CB0E27F009E9E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521F72232CB0E280009E9E0B /* ForeverYongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForeverYongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521F72272CB0E280009E9E0B /* ForeverYongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeverYongTests.swift; sourceTree = "<group>"; };
+		521F722D2CB0E280009E9E0B /* ForeverYongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForeverYongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521F72312CB0E280009E9E0B /* ForeverYongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeverYongUITests.swift; sourceTree = "<group>"; };
+		521F72332CB0E280009E9E0B /* ForeverYongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeverYongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521F720A2CB0E27C009E9E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521F72202CB0E280009E9E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521F722A2CB0E280009E9E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521F72042CB0E27C009E9E0B = {
+			isa = PBXGroup;
+			children = (
+				521F720F2CB0E27C009E9E0B /* ForeverYong */,
+				521F72262CB0E280009E9E0B /* ForeverYongTests */,
+				521F72302CB0E280009E9E0B /* ForeverYongUITests */,
+				521F720E2CB0E27C009E9E0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521F720E2CB0E27C009E9E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521F720D2CB0E27C009E9E0B /* ForeverYong.app */,
+				521F72232CB0E280009E9E0B /* ForeverYongTests.xctest */,
+				521F722D2CB0E280009E9E0B /* ForeverYongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521F720F2CB0E27C009E9E0B /* ForeverYong */ = {
+			isa = PBXGroup;
+			children = (
+				521F72102CB0E27C009E9E0B /* AppDelegate.swift */,
+				521F72122CB0E27C009E9E0B /* SceneDelegate.swift */,
+				521F72142CB0E27C009E9E0B /* ViewController.swift */,
+				521F72192CB0E27F009E9E0B /* Assets.xcassets */,
+				521F721B2CB0E27F009E9E0B /* LaunchScreen.storyboard */,
+				521F721E2CB0E27F009E9E0B /* Info.plist */,
+			);
+			path = ForeverYong;
+			sourceTree = "<group>";
+		};
+		521F72262CB0E280009E9E0B /* ForeverYongTests */ = {
+			isa = PBXGroup;
+			children = (
+				521F72272CB0E280009E9E0B /* ForeverYongTests.swift */,
+			);
+			path = ForeverYongTests;
+			sourceTree = "<group>";
+		};
+		521F72302CB0E280009E9E0B /* ForeverYongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				521F72312CB0E280009E9E0B /* ForeverYongUITests.swift */,
+				521F72332CB0E280009E9E0B /* ForeverYongUITestsLaunchTests.swift */,
+			);
+			path = ForeverYongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521F720C2CB0E27C009E9E0B /* ForeverYong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521F72372CB0E280009E9E0B /* Build configuration list for PBXNativeTarget "ForeverYong" */;
+			buildPhases = (
+				521F72092CB0E27C009E9E0B /* Sources */,
+				521F720A2CB0E27C009E9E0B /* Frameworks */,
+				521F720B2CB0E27C009E9E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForeverYong;
+			productName = ForeverYong;
+			productReference = 521F720D2CB0E27C009E9E0B /* ForeverYong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521F72222CB0E280009E9E0B /* ForeverYongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521F723A2CB0E280009E9E0B /* Build configuration list for PBXNativeTarget "ForeverYongTests" */;
+			buildPhases = (
+				521F721F2CB0E280009E9E0B /* Sources */,
+				521F72202CB0E280009E9E0B /* Frameworks */,
+				521F72212CB0E280009E9E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521F72252CB0E280009E9E0B /* PBXTargetDependency */,
+			);
+			name = ForeverYongTests;
+			productName = ForeverYongTests;
+			productReference = 521F72232CB0E280009E9E0B /* ForeverYongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		521F722C2CB0E280009E9E0B /* ForeverYongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521F723D2CB0E280009E9E0B /* Build configuration list for PBXNativeTarget "ForeverYongUITests" */;
+			buildPhases = (
+				521F72292CB0E280009E9E0B /* Sources */,
+				521F722A2CB0E280009E9E0B /* Frameworks */,
+				521F722B2CB0E280009E9E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521F722F2CB0E280009E9E0B /* PBXTargetDependency */,
+			);
+			name = ForeverYongUITests;
+			productName = ForeverYongUITests;
+			productReference = 521F722D2CB0E280009E9E0B /* ForeverYongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521F72052CB0E27C009E9E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					521F720C2CB0E27C009E9E0B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					521F72222CB0E280009E9E0B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 521F720C2CB0E27C009E9E0B;
+					};
+					521F722C2CB0E280009E9E0B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 521F720C2CB0E27C009E9E0B;
+					};
+				};
+			};
+			buildConfigurationList = 521F72082CB0E27C009E9E0B /* Build configuration list for PBXProject "ForeverYong" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521F72042CB0E27C009E9E0B;
+			productRefGroup = 521F720E2CB0E27C009E9E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521F720C2CB0E27C009E9E0B /* ForeverYong */,
+				521F72222CB0E280009E9E0B /* ForeverYongTests */,
+				521F722C2CB0E280009E9E0B /* ForeverYongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521F720B2CB0E27C009E9E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521F721A2CB0E27F009E9E0B /* Assets.xcassets in Resources */,
+				521F721D2CB0E27F009E9E0B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521F72212CB0E280009E9E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521F722B2CB0E280009E9E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521F72092CB0E27C009E9E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521F72152CB0E27C009E9E0B /* ViewController.swift in Sources */,
+				521F72112CB0E27C009E9E0B /* AppDelegate.swift in Sources */,
+				521F72132CB0E27C009E9E0B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521F721F2CB0E280009E9E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521F72282CB0E280009E9E0B /* ForeverYongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521F72292CB0E280009E9E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521F72322CB0E280009E9E0B /* ForeverYongUITests.swift in Sources */,
+				521F72342CB0E280009E9E0B /* ForeverYongUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521F72252CB0E280009E9E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521F720C2CB0E27C009E9E0B /* ForeverYong */;
+			targetProxy = 521F72242CB0E280009E9E0B /* PBXContainerItemProxy */;
+		};
+		521F722F2CB0E280009E9E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521F720C2CB0E27C009E9E0B /* ForeverYong */;
+			targetProxy = 521F722E2CB0E280009E9E0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521F721B2CB0E27F009E9E0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521F721C2CB0E27F009E9E0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521F72352CB0E280009E9E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		521F72362CB0E280009E9E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521F72382CB0E280009E9E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM8QMV9BGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForeverYong/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natavladimirDeveloper.ForeverYong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521F72392CB0E280009E9E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM8QMV9BGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ForeverYong/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natavladimirDeveloper.ForeverYong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		521F723B2CB0E280009E9E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM8QMV9BGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natavladimirDeveloper.ForeverYongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForeverYong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForeverYong";
+			};
+			name = Debug;
+		};
+		521F723C2CB0E280009E9E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM8QMV9BGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natavladimirDeveloper.ForeverYongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForeverYong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForeverYong";
+			};
+			name = Release;
+		};
+		521F723E2CB0E280009E9E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM8QMV9BGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natavladimirDeveloper.ForeverYongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForeverYong;
+			};
+			name = Debug;
+		};
+		521F723F2CB0E280009E9E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM8QMV9BGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natavladimirDeveloper.ForeverYongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForeverYong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521F72082CB0E27C009E9E0B /* Build configuration list for PBXProject "ForeverYong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521F72352CB0E280009E9E0B /* Debug */,
+				521F72362CB0E280009E9E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521F72372CB0E280009E9E0B /* Build configuration list for PBXNativeTarget "ForeverYong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521F72382CB0E280009E9E0B /* Debug */,
+				521F72392CB0E280009E9E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521F723A2CB0E280009E9E0B /* Build configuration list for PBXNativeTarget "ForeverYongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521F723B2CB0E280009E9E0B /* Debug */,
+				521F723C2CB0E280009E9E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521F723D2CB0E280009E9E0B /* Build configuration list for PBXNativeTarget "ForeverYongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521F723E2CB0E280009E9E0B /* Debug */,
+				521F723F2CB0E280009E9E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521F72052CB0E27C009E9E0B /* Project object */;
+}
